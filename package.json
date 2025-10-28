@@ -17,6 +17,7 @@
     "test": "npm run test:unit",
     "test:unit": "vitest tests/unit",
     "prepare": "husky"
+    "start": "vite preview --port 10000 --host"
   },
   "dependencies": {
     "@animxyz/vue3": "0.6.7",
